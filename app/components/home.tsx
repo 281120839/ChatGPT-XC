@@ -169,10 +169,10 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT-星辰网</div>
           <div className={styles["sidebar-sub-title"]}>
-            购买APPkey：https://xc.nncv.xyz
+            <a target="_blank" style="text-decoration: none;" href="https://zxxm.xyz">点击进入星辰导航站</a>
           </div>
           <div className={styles["sidebar-sub-title"]}>
-            星辰导航站：https://zxxm.xyz
+            <a target="_blank" style="text-decoration: none;color: aqua;" href="https://zxxm.xyz">点击购买APPkey</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
