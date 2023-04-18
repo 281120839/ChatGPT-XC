@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码。",
+    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码或使用自己的APPkey。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -85,11 +85,12 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：ChatGPT-星辰`,
+      Version: (x: string) => `当前版本：ChatGPT-星辰版`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `购买APPkey：https://xc.nncv.xyz/`,
+      FoundUpdate: (x: string) => `购买APPkey：`,
+      GoToUpdate: "前往购买APPkey",
     },
     SendKey: "发送键",
     Theme: "主题",
